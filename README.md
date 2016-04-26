@@ -5,6 +5,11 @@
 このリポジトリは、CHIRIMEN Open HardwareプロジェクトのISSUESを検討するために用意されています。
 従って、[issues](https://github.com/chirimen-org/meeting/issues)だけが利用されます。
 
+
+Projects
+---
+
+
 以下のカテゴリに当てはまる場合は、該当するリポジトリで新たにissuesを作成してください。
 
  + [chirimen-org.github.io](https://github.com/chirimen-org/chirimen-org.github.io)
@@ -12,7 +17,12 @@
  + [examples](https://github.com/chirimen-org/examples)
    + WebGPIO/I2C APIを使用したアプリのサンプル集。CHIRIMENで動作確認の取れたデバイス（センサー、アクチュエーター）の基本動作用プログラム集。
 
-該当リポジトリがあり、上に一覧が無い場合は当リポジトリのissuesに御知らせください。
+ __*__ _該当リポジトリがあり、上に一覧が無い場合は当リポジトリのissuesに御知らせください。_
 
 
+
+---
+
+
+__*お願い：*__ 外部から当プロジェクトgithubへリンクされる場合、このリポジトリのREADMEが参照出来る位置へのリンクを御願いします。
 
