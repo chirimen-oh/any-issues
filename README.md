@@ -7,8 +7,10 @@
 
 以下のカテゴリに当てはまる場合は、該当するリポジトリで新たにissuesを作成してください。
 
- + [CHIRIMEN Potal Page](https://github.com/chirimen-org/chirimen-org.github.io)
- + [CHIRIMENの簡単な動作サンプル](https://github.com/chirimen-org/examples)
+ + [chirimen-org.github.io](https://github.com/chirimen-org/chirimen-org.github.io)
+   + CHIRIMENホームページのソースコード
+ + [examples](https://github.com/chirimen-org/examples)
+   + WebGPIO/I2C APIを使用したアプリのサンプル集。CHIRIMENで動作確認の取れたデバイス（センサー、アクチュエーター）の基本動作用プログラム集。
 
 該当リポジトリがあり、上に一覧が無い場合は当リポジトリのissuesに御知らせください。
 
