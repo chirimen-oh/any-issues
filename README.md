@@ -27,8 +27,8 @@ markdown記法でホームページを書いて掲載するためにはjekyllに
 Windows用ドライバ、イメージ作成ツールやFritzing（回路図作成ツール）用のCHIRIMEN素材など。
 
 #### CHIRIMENのリリースに関するリポジトリ
-##### [release-candidate](https://github.com/chirimen-org/release-candidate)
-* CHIRIMENのリリース候補に関するリポジトリ。
+##### [release](https://github.com/chirimen-org/release)
+* CHIRIMENのリリースに関するリポジトリ。
  
 #### CHIRIMEN用ビルドを作るために必要となるモジュールのレポジトリ
 ##### [B2G](https://github.com/chirimen-org/B2G)
@@ -57,25 +57,19 @@ shell上でのI2C動作確認用にCHIRIMENに組み込まれる。
 b2g-manifestから参照されている。
 
 #####  [device-chirimen](https://github.com/chirimen-org/device-chirimen)
-* **(確認中)Firefoxブラウザ向けWebIDEに"CHIRIMEN"を認識させるための変更など。**
-b2g-manifestから参照されている。
+* b2g-manifestから参照されている。
 
 #####  [device-rockchip-rksdk](https://github.com/chirimen-org/device-rockchip-rksdk)
-* **(確認中)I2CやGPIOを操作するためのpermissionの設定など?**
-b2g-manifestから参照されている。
+* b2g-manifestから参照されている。
 
 #####  [u-boot-rockchip](https://github.com/chirimen-org/u-boot-rockchip)
-* **(確認中)CHIRIMENのチップ(rk3066)用のカーネルを作るのに必要？**
-b2g-manifestから参照されている。
+* b2g-manifestから参照されている。
 
 #####  [linux-rockchip](https://github.com/chirimen-org/linux-rockchip)
-* **(確認中)CHIRIMENのチップ(rk3066)用のカーネルを作るのに必要？**
-**u-boot-rockchipとの違いを書きたいが…**
-b2g-manifestから参照されている。
+* b2g-manifestから参照されている。
 
 #####  [platform_system_core](https://github.com/chirimen-org/platform_system_core)
-* **(確認中)GPIOに対し正しくpermissionを設定するための回避策として必要。**
-b2g-manifestから参照されている。
+* b2g-manifestから参照されている。
 
 
  __*__ _該当リポジトリがあり、上に一覧が無い場合は当リポジトリのissuesに御知らせください。_
