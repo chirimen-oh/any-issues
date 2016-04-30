@@ -27,7 +27,7 @@ markdown記法でホームページを書いて掲載するためにはjekyllに
 Windows用ドライバ、イメージ作成ツールやFritzing（回路図作成ツール）用のCHIRIMEN素材など。
 
 #### CHIRIMENのリリースに関するリポジトリ
-##### [release](https://github.com/chirimen-org/release)
+##### [release](https://github.com/chirimen-oh/release)
 * CHIRIMENのリリースに関するリポジトリ。
  
 #### CHIRIMEN用ビルドを作るために必要となるモジュールのレポジトリ
