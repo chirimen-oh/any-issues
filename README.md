@@ -17,6 +17,7 @@ Projects
 ##### [examples](https://github.com/chirimen-org/examples)
 * CHIRIMENで動作確認の取れたデバイス（センサー、アクチュエーター）をWebGPIO/I2C APIを使用し動作させるための基本プログラム集。
 デバイスの利用法がfabbleで説明され、そのためのプログラムが本レポジトリに収納される。
+* [fabbleへのリンク](http://fabble.cc/chirimenedu)
 
 ##### [chirimen-org.github.io](https://github.com/chirimen-org/chirimen-org.github.io)
 * CHIRIMENホームページのソースコード。
