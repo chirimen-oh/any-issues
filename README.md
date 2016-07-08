@@ -13,6 +13,9 @@ Projects
 ##### any-issues
 * CHIRIMEN全体に関わるissueを議論するための掲示板。下記レポジトリの説明も含まれる(readme)。
 
+##### [meeting](https://github.com/chirimen-oh/meeting)
+* CHRIMENマンスリーミーティング用リポジトリ
+
 #### CHIRIMENを利用した開発、CHIRIMENの各種情報に関するリポジトリ
 ##### [examples](https://github.com/chirimen-org/examples)
 * CHIRIMENで動作確認の取れたデバイス（センサー、アクチュエーター）をWebGPIO/I2C APIを使用し動作させるための基本プログラム集。
