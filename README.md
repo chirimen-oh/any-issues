@@ -66,9 +66,6 @@ b2g-manifestから参照されている。
 #####  [device-rockchip-rksdk](https://github.com/chirimen-org/device-rockchip-rksdk)
 * b2g-manifestから参照されている。
 
-#####  [u-boot-rockchip](https://github.com/chirimen-org/u-boot-rockchip)
-* b2g-manifestから参照されている。
-
 #####  [linux-rockchip](https://github.com/chirimen-org/linux-rockchip)
 * b2g-manifestから参照されている。
 
