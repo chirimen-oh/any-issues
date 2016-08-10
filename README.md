@@ -13,6 +13,10 @@ Projects
 ##### any-issues
 * CHIRIMEN全体に関わるissueを議論するための掲示板。下記レポジトリの説明も含まれる(readme)。
 
+##### [Support-And-FAQ](https://github.com/chirimen-oh/Support-And-FAQ)
+* CHIRIMENに関わる質問やサポートを行うための掲示板。(疑問や質問が有る場合、[issues](https://github.com/chirimen-oh/Support-And-FAQ/issues)に投稿してください。)
+
+
 ##### [meeting](https://github.com/chirimen-oh/meeting)
 * CHRIMENマンスリーミーティング用リポジトリ
 
