@@ -10,6 +10,9 @@ Projects
 ---
 
 #### CHIRIMENに関する議論（掲示板）
+
+* すべてのissuesを閲覧するには[こちら](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3Achirimen-oh)のリンクを参照してください。
+
 ##### any-issues
 * CHIRIMEN全体に関わるissueを議論するための掲示板。下記レポジトリの説明も含まれる(readme)。
 
