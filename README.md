@@ -1,91 +1,80 @@
-# CHIRIMEN Open Hardwareプロジェクトの総合的なISSUES検討場所
+# General ISSUES repository to consider of CHIRIMEN Open Hardware Project
 
 [![Join the chat at https://gitter.im/chirimen-org/meeting](https://badges.gitter.im/chirimen-org/meeting.svg)](https://gitter.im/chirimen-org/meeting?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-このリポジトリは、CHIRIMEN Open HardwareプロジェクトのISSUESを検討するために用意されています。
-従って、[issues](https://github.com/chirimen-org/meeting/issues)の議論の目的のみで利用されます。
+This repository is prepared to consider ISSUES of the CHIRIMEN Open Hardware Project. Therefore, it is used only for discussion purposes of [issues](https://github.com/chirimen-org/meeting/issues).
 
 
 Projects
 ---
+#### Discussion about CHIRIMEN (bulletin board)
 
-#### CHIRIMENに関する議論（掲示板）
-
-* すべてのissuesを閲覧するには[こちら](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3Achirimen-oh)のリンクを参照してください。
+* Please see [this link](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+user%3Achirimen-oh) to view all issues.
 
 ##### any-issues
-* CHIRIMEN全体に関わるissueを議論するための掲示板。下記レポジトリの説明も含まれる(readme)。
+* Bulletin board to discuss issues connected to the whole CHIRIMEN. An explanation of the following repository is also included (readme).
 
 ##### [Support-And-FAQ](https://github.com/chirimen-oh/Support-And-FAQ)
-* CHIRIMENに関わる質問やサポートを行うための掲示板。(疑問や質問が有る場合、[issues](https://github.com/chirimen-oh/Support-And-FAQ/issues)に投稿してください。)
+* Bulletin board to ask questions and support connected to CHIRIMEN.(If you have questions, please post to [issues](https://github.com/chirimen-oh/Support-And-FAQ/issues).)
 
 
 ##### [meeting](https://github.com/chirimen-oh/meeting)
-* CHRIMENマンスリーミーティング用リポジトリ
+* Repository for CHRIMEN monthly meeting
 
-#### CHIRIMENを利用した開発、CHIRIMENの各種情報に関するリポジトリ
+#### Development using CHIRIMEN, Repository on various information of CHIRIMEN
 ##### [examples](https://github.com/chirimen-org/examples)
-* CHIRIMENで動作確認の取れたデバイス（センサー、アクチュエーター）をWebGPIO/I2C APIを使用し動作させるための基本プログラム集。
-デバイスの利用法がfabbleで説明され、そのためのプログラムが本レポジトリに収納される。
+* Basic program collection for using WebGPIO / I2C API that devices (sensors, actuators) that have been confirmed with CHIRIMEN. The usage of the device is explained in fabble and the program for that is collected in this repository.
+
 * [fabbleへのリンク](http://fabble.cc/chirimenedu)
 
 ##### [chirimen-org.github.io](https://github.com/chirimen-org/chirimen-org.github.io)
-* CHIRIMENホームページのソースコード。
-markdown記法でホームページを書いて掲載するためにはjekyllによる変換が必要。
+* CHIRIMEN Homepage source code. Conversion by jekyll is necessary to write home page by markdown notation.
 
 ##### [CHIRIMEN-tools](https://github.com/chirimen-org/CHIRIMEN-tools)
-* CHIRIMENの開発、ドキュメント作成に役立つツール集。
-Windows用ドライバ、イメージ作成ツールやFritzing（回路図作成ツール）用のCHIRIMEN素材など。
+* Tools collection useful for CHIRIMEN development and document creation. Drivers for Windows, image creation tools and CHIRIMEN material for Fritzing (schematic drawing tool) etc.
 
-#### CHIRIMENのリリースに関するリポジトリ
+#### Repository on CHIRIMEN release
 ##### [release](https://github.com/chirimen-oh/release)
-* CHIRIMENのリリースに関するリポジトリ。
- 
-#### CHIRIMEN用ビルドを作るために必要となるモジュールのレポジトリ
+* Repository on the release of CHIRIMEN.
+
+#### A repository of modules required for building a CHIRIMEN build
 ##### [B2G](https://github.com/chirimen-org/B2G)
-* B2Gをビルドする際の大元となるレポジトリ。CHIRIMEN用ビルドのためのconfigなどが追加されている。
-下記b2g-manifestを使い必要な情報がcloneされる。CHIRIMENに焼くイメージをビルドをしたい場合、このリポジトリをcloneする。
+* When building B2G base repository. Config for CHIRIMEN build etc had added. The necessary information is cloned using b2g-manifest below. If you want to build an image burned to CHIRIMEN, clone this repository.
 
 ##### [b2g-manifest](https://github.com/chirimen-org/b2g-manifest)
-* B2Gのconfig.shで以下の各リポジトリ（他、外部のリポジトリも含まれる）をcloneするための参照情報。以下のリポジトリがb2g-manifest から参照され、結果として、B2Gのconfig.sh でこれらのリポジトリが B2G の下にclone される。
+* Reference information to clone each of the following repositories (including other, external repositories) in config.sh of B2G. The following repositories are referenced from b2g-manifest, and as a result, these repositories are cloned under B2G by config.sh of B2G.
 
 ##### [gaia](https://github.com/chirimen-org/gaia) 
-* B2Gのgaia層に相当。
-CHIRIME起動時のアプリやホーム画面を作る場合はこのレポジトリを編集する。
-**(確認中)現在はCHIRIMEN用のカスタマイズは入っていないと思われるため特別に必要か？**
+* It is equivalent to the gaia layer of B2G. To create an application or home screen when starting CHIRIME, edit this repository. Now, Is it necessary because it seems that customization for CHIRIMEN is not included?
 
 ##### [b2g-patches](https://github.com/chirimen-org/b2g-patches) 
-* B2GをCHIRIMEN用にビルドして動作させるためのpatch集。
-いずれはgecko-devにマージしてこのレポジトリをなくすことが求められる。
+* Patch collection for building B2G for CHIRIMEN and making it work. Eventually it is required to merge with gecko-dev to eliminate this repository.
 
 ##### [gecko-dev](https://github.com/chirimen-org/gecko-dev) 
-* B2Gのgecko層をCHIRIMEN用にカスタマイズしたもの。webGPIO/I2C APIの実装もここに組み込まれる。
-b2g-manifestから参照されている。
+* A customized version of B2G's gecko layer for CHIRIMEN. Implementation of webGPIO / I2C API is also included here. It is referred to from b2g-manifest.
 
 #####  [i2c-tools](https://github.com/chirimen-org/i2c-tools) 
-* コマンドライン上でI2Cの操作を行うためのLinuxプログラム。
-shell上でのI2C動作確認用にCHIRIMENに組み込まれる。
-b2g-manifestから参照されている。
+* A Linux program for execute I2C operations on the command line. It is incorporated in CHIRIMEN for confirmation of I2C operation on shell. It is referred to from b2g-manifest.
 
 #####  [device-chirimen](https://github.com/chirimen-org/device-chirimen)
-* b2g-manifestから参照されている。
+* It is referred to from b2g-manifest.
 
 #####  [device-rockchip-rksdk](https://github.com/chirimen-org/device-rockchip-rksdk)
-* b2g-manifestから参照されている。
+* It is referred to from b2g-manifest.
 
 #####  [linux-rockchip](https://github.com/chirimen-org/linux-rockchip)
-* b2g-manifestから参照されている。
+* It is referred to from b2g-manifest.
 
 #####  [platform_system_core](https://github.com/chirimen-org/platform_system_core)
-* b2g-manifestから参照されている。
+* It is referred to from b2g-manifest.
 
 
- __*__ _該当リポジトリがあり、上に一覧が無い場合は当リポジトリのissuesに御知らせください。_
+ __*__ _If there is a corresponding repository and there is no list above, please let us know the issue of this repository._
 
 
 
 ---
 
 
-__*お願い：*__ 外部から当プロジェクトgithubへリンクされる場合、このリポジトリのREADMEが参照出来る位置へのリンクを御願いします。
+__*Note：*__ When linking from outside to this project github, please give a link to the location where README of this repository can refer.
 
