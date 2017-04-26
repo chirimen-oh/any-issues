@@ -25,7 +25,7 @@ Projects
 ##### [examples](https://github.com/chirimen-org/examples)
 * Basic program collection for using WebGPIO / I2C API that devices (sensors, actuators) that have been confirmed with CHIRIMEN. The usage of the device is explained in fabble and the program for that is collected in this repository.
 
-* [fabbleへのリンク](http://fabble.cc/chirimenedu)
+* [To fabbles link](http://fabble.cc/chirimenedu)
 
 ##### [chirimen-org.github.io](https://github.com/chirimen-org/chirimen-org.github.io)
 * CHIRIMEN Homepage source code. Conversion by jekyll is necessary to write home page by markdown notation.
